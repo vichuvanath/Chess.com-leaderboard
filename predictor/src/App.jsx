@@ -1,10 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-import Lobby from './components/Lobby';
 import Leaderboard from './components/Leaderboard';
-import Tournaments from './components/Tournaments';
-import Academy from './components/Academy';
 import useScrollReveal from './hooks/useScrollReveal';
 import './App.css';
 
@@ -17,14 +14,11 @@ function App() {
       
       <main className="main-content">
         <HeroSection />
-        <Lobby />
-        <Tournaments />
         <Leaderboard />
-        <Academy />
       </main>
 
       <footer>
-        <p>&copy; {new Date().getFullYear()} <span>RecordLeader</span>. All rights reserved. The masterclass arena for Blitz and Rapid.</p>
+        <p>&copy; {new Date().getFullYear()} <span>RecordLeader</span>. All rights reserved. The community hub for Chess.com players.</p>
       </footer>
     </div>
   );

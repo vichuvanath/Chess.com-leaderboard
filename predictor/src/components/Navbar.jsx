@@ -22,10 +22,7 @@ const Navbar = () => {
       </a>
       
       <div className="nav-links">
-        <a href="#play" className="nav-link">Play</a>
         <a href="#leaderboard" className="nav-link">Leaderboard</a>
-        <a href="#tournaments" className="nav-link">Tournaments</a>
-        <a href="#learn" className="nav-link">Learn</a>
       </div>
 
       <div className="nav-profile">
