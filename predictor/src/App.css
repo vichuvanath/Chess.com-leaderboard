@@ -1,0 +1,23 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+footer span {
+  color: var(--accent-gold);
+  font-weight: 600;
+}
